@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="3" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39154" started-at="2018-11-15T08:51:47Z" finished-at="2018-11-15T08:52:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39154" started-at="2018-11-15T08:51:47Z" finished-at="2018-11-15T08:52:26Z">
+      <class name="Android.Umang">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Android.Umang@1753acfe]" name="setUp" is-config="true" duration-ms="20069" started-at="2018-11-15T08:51:47Z" finished-at="2018-11-15T08:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Android.Umang@1753acfe]" name="quitDriver" is-config="true" duration-ms="3551" started-at="2018-11-15T08:52:23Z" finished-at="2018-11-15T08:52:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="generatereport()[pri:0, instance:Android.Umang@1753acfe]" name="generatereport" is-config="true" duration-ms="2564" started-at="2018-11-15T08:52:27Z" finished-at="2018-11-15T08:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generatereport -->
+      </class> <!-- Android.Umang -->
+      <class name="Android.Umang1">
+        <test-method status="FAIL" signature="Sum()[pri:0, instance:Android.Umang1@7c16905e]" name="Sum" duration-ms="15494" started-at="2018-11-15T08:52:07Z" finished-at="2018-11-15T08:52:23Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'SDL7207', ip: '172.26.14.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{appPackage=in.gov.umang.negd.g2c.staging, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=29b6dc16, version=6.0.1, platform=LINUX, appActivity=in.spicedigital.umang.activities.SplashScreen, desired={appPackage=in.gov.umang.negd.g2c.staging, appActivity=in.spicedigital.umang.activities.SplashScreen, browserName=Android, unicodeKeyboard=true, platformName=Android, deviceName=29b6dc16, version=6.0.1, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: 774d59e8-c8ea-427e-84cb-3546c82ea8cc
+*** Element info: {Using=id, value=in.gov.umang.negd.g2c.staging:id/cb_i_agree}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'SDL7207', ip: '172.26.14.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{appPackage=in.gov.umang.negd.g2c.staging, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=29b6dc16, version=6.0.1, platform=LINUX, appActivity=in.spicedigital.umang.activities.SplashScreen, desired={appPackage=in.gov.umang.negd.g2c.staging, appActivity=in.spicedigital.umang.activities.SplashScreen, browserName=Android, unicodeKeyboard=true, platformName=Android, deviceName=29b6dc16, version=6.0.1, resetKeyboard=true}, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: 774d59e8-c8ea-427e-84cb-3546c82ea8cc
+*** Element info: {Using=id, value=in.gov.umang.negd.g2c.staging:id/cb_i_agree}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+at org.openqa.selenium.By$ById.findElement(By.java:218)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+at Android.Umang1.Sum(Umang1.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sum -->
+      </class> <!-- Android.Umang1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
