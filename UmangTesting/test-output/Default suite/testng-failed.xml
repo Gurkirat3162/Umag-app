@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Android.Umang1">
+      <class name="Android.Umang">
         <methods>
           <include name="setUp"/>
-          <include name="Sum"/>
+          <include name="yRegisterComplaint"/>
           <include name="generatereport"/>
           <include name="quitDriver"/>
         </methods>
-      </class> <!-- Android.Umang1 -->
+      </class> <!-- Android.Umang -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
